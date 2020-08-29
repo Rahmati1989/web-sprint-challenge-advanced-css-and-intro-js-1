@@ -302,11 +302,11 @@ For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte
 
 function lotsOfArt(artists){
 
-  for(let i=0; i<artist.length; i++)
+  for(let i=0; i<artists.length; i++)
   if(artists[i].paintings>100){
     
   }
-  return artist;
+  return artists;
 
 }
 console.log(lotsOfArt(artists));
